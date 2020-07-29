@@ -1,0 +1,8 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":14,"error_msg":"Captcha needed","request_params":[{"key":"method","value":"friends.add"},{"key":"oauth","value":"1"},{"key":"user_id","value":"462706"},{"key":"v","value":"5.65"},{"key":"random_id","value":"-197624907"}],"captcha_sid":"416248251910","captcha_img":"https:\/\/api.vk.com\/captcha.php?sid=416248251910&s=1"}}
+[Exception]: код ошибки: 14
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/bot.php(119): DigitalStar\vk_api\vk_api->request('friends.add', Array)
+#1 /Applications/MAMP/htdocs/vk_bot/adder.php(49): Bot->friendRequest(462706)
+#2 /Applications/MAMP/htdocs/vk_bot/add.php(20): Adder->doAdd()
+#3 {main}

@@ -1,0 +1,24 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":15,"error_msg":"Access denied: group hide members","request_params":[{"key":"method","value":"groups.getMembers"},{"key":"oauth","value":"1"},{"key":"group_id","value":"smorodinabiz1"},{"key":"v","value":"5.65"},{"key":"random_id","value":"1323037869"}]}}
+[Exception]: код ошибки: 15
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/bot.php(12): DigitalStar\vk_api\vk_api->request('groups.getMembe...', Array)
+#1 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: user_id or access_key should be provided","request_params":[{"key":"method","value":"friends.add"},{"key":"oauth","value":"1"},{"key":"user_id","value":""},{"key":"v","value":"5.65"},{"key":"random_id","value":"-1363799584"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/bot.php(17): DigitalStar\vk_api\vk_api->request('friends.add', Array)
+#1 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: user_id or access_key should be provided","request_params":[{"key":"method","value":"friends.add"},{"key":"oauth","value":"1"},{"key":"user_id","value":""},{"key":"v","value":"5.65"},{"key":"random_id","value":"509999726"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/bot.php(17): DigitalStar\vk_api\vk_api->request('friends.add', Array)
+#1 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: user_id or access_key should be provided","request_params":[{"key":"method","value":"friends.add"},{"key":"oauth","value":"1"},{"key":"user_id","value":""},{"key":"v","value":"5.65"},{"key":"random_id","value":"858837790"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/bot.php(17): DigitalStar\vk_api\vk_api->request('friends.add', Array)
+#1 {main}

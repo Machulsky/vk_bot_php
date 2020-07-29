@@ -1,0 +1,24 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":28,"error_msg":"Application authorization failed: method is unavailable with service token.","request_params":[{"key":"method","value":"group.getMembers"},{"key":"oauth","value":"1"},{"key":"group_id","value":"smorodinabiz"},{"key":"v","value":"5.65"},{"key":"random_id","value":"-1312819226"}]}}
+[Exception]: код ошибки: 28
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/runtime.php(20): DigitalStar\vk_api\vk_api->request('group.getMember...', Array)
+#1 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":5,"error_msg":"User authorization failed: invalid access_token (4).","request_params":[{"key":"method","value":"group.getMembers"},{"key":"oauth","value":"1"},{"key":"group_id","value":"smorodinabiz"},{"key":"v","value":"5.65"},{"key":"random_id","value":"1170490137"}]}}
+[Exception]: код ошибки: 5
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/runtime.php(20): DigitalStar\vk_api\vk_api->request('group.getMember...', Array)
+#1 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":28,"error_msg":"Application authorization failed: access_token has expired.","request_params":[{"key":"method","value":"group.getMembers"},{"key":"oauth","value":"1"},{"key":"group_id","value":"smorodinabiz"},{"key":"v","value":"5.65"},{"key":"random_id","value":"1046451283"}]}}
+[Exception]: код ошибки: 28
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/runtime.php(20): DigitalStar\vk_api\vk_api->request('group.getMember...', Array)
+#1 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":28,"error_msg":"Application authorization failed: method is unavailable with service token.","request_params":[{"key":"method","value":"group.getMembers"},{"key":"oauth","value":"1"},{"key":"group_id","value":"smorodinabiz"},{"key":"v","value":"5.65"},{"key":"random_id","value":"78662899"}]}}
+[Exception]: код ошибки: 28
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/runtime.php(20): DigitalStar\vk_api\vk_api->request('group.getMember...', Array)
+#1 {main}

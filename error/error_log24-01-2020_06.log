@@ -1,0 +1,9 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":"invalid_request","error_type":"too_much_tries","error_description":"\u0412\u044b \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u043b\u0438 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u043c\u043d\u043e\u0433\u043e \u043f\u043e\u043f\u044b\u0442\u043e\u043a, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0447\u0435\u0440\u0435\u0437 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0447\u0430\u0441\u043e\u0432."}
+[Exception]: код ошибки: 0
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/Auth.php:328
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/Auth.php(248): DigitalStar\vk_api\Auth->generateAccessTokenMobile(NULL, NULL)
+#1 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php(63): DigitalStar\vk_api\Auth->getAccessToken()
+#2 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php(81): DigitalStar\vk_api\vk_api->__construct('79086803791', '2999061999', '5.103')
+#3 /Applications/MAMP/htdocs/vk_bot/bot_adder.php(10): DigitalStar\vk_api\vk_api::create('79086803791', '2999061999', '5.103')
+#4 {main}

@@ -1,0 +1,15 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":8,"error_msg":"Invalid request: versions below 5.00 are deprecated. Version param should be passed as \"v\". \"version\" param is invalid and not supported. For more information go to https:\/\/vk.com\/dev\/version_update_2.0","request_params":[{"key":"method","value":"groups.getById"},{"key":"oauth","value":"1"},{"key":"v","value":"VERSION"},{"key":"random_id","value":"1101993095"}]}}
+[Exception]: код ошибки: 8
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/LongPoll.php(49): DigitalStar\vk_api\vk_api->request('groups.getById', Array)
+#1 /Applications/MAMP/htdocs/vk_bot/bot.php(9): DigitalStar\vk_api\LongPoll->__construct(Object(DigitalStar\vk_api\vk_api))
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: lp_version is accepted only from version 5.65","request_params":[{"key":"method","value":"messages.getLongPollServer"},{"key":"oauth","value":"1"},{"key":"need_pts","value":"1"},{"key":"lp_version","value":"3"},{"key":"v","value":"5.8"},{"key":"random_id","value":"-2091628634"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/LongPoll.php(66): DigitalStar\vk_api\vk_api->request('messages.getLon...', Array)
+#1 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/LongPoll.php(57): DigitalStar\vk_api\LongPoll->getLongPollServer()
+#2 /Applications/MAMP/htdocs/vk_bot/bot.php(9): DigitalStar\vk_api\LongPoll->__construct(Object(DigitalStar\vk_api\vk_api))
+#3 {main}

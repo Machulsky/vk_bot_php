@@ -1,0 +1,27 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":"invalid_client","error_type":"username_or_password_is_incorrect","error_description":"\u041d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043b\u043e\u0433\u0438\u043d \u0438\u043b\u0438 \u043f\u0430\u0440\u043e\u043b\u044c"}
+[Exception]: код ошибки: 0
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/Auth.php:328
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/Auth.php(248): DigitalStar\vk_api\Auth->generateAccessTokenMobile(NULL, NULL)
+#1 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php(63): DigitalStar\vk_api\Auth->getAccessToken()
+#2 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php(81): DigitalStar\vk_api\vk_api->__construct('murzya88@yandex...', '61242913q', '5.65')
+#3 /Applications/MAMP/htdocs/vk_bot/bot_listener.php(9): DigitalStar\vk_api\vk_api::create('murzya88@yandex...', '61242913q', '5.65')
+#4 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":"invalid_client","error_type":"username_or_password_is_incorrect","error_description":"\u041d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043b\u043e\u0433\u0438\u043d \u0438\u043b\u0438 \u043f\u0430\u0440\u043e\u043b\u044c"}
+[Exception]: код ошибки: 0
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/Auth.php:328
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/Auth.php(248): DigitalStar\vk_api\Auth->generateAccessTokenMobile(NULL, NULL)
+#1 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php(63): DigitalStar\vk_api\Auth->getAccessToken()
+#2 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php(81): DigitalStar\vk_api\vk_api->__construct('Innulja.89@mail...', '408515861', '5.65')
+#3 /Applications/MAMP/htdocs/vk_bot/bot_listener.php(9): DigitalStar\vk_api\vk_api::create('Innulja.89@mail...', '408515861', '5.65')
+#4 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":"invalid_client","error_type":"username_or_password_is_incorrect","error_description":"\u041d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043b\u043e\u0433\u0438\u043d \u0438\u043b\u0438 \u043f\u0430\u0440\u043e\u043b\u044c"}
+[Exception]: код ошибки: 0
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/Auth.php:328
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/Auth.php(248): DigitalStar\vk_api\Auth->generateAccessTokenMobile(NULL, NULL)
+#1 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php(63): DigitalStar\vk_api\Auth->getAccessToken()
+#2 /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php(81): DigitalStar\vk_api\vk_api->__construct('karkadil@gmail....', 'agn02750889', '5.65')
+#3 /Applications/MAMP/htdocs/vk_bot/bot_listener.php(9): DigitalStar\vk_api\vk_api::create('karkadil@gmail....', 'agn02750889', '5.65')
+#4 {main}

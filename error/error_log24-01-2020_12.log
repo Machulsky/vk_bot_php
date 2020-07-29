@@ -1,0 +1,6 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":100,"error_msg":"One of the parameters specified was missing or invalid: user_id or access_key should be provided","request_params":[{"key":"method","value":"friends.add"},{"key":"oauth","value":"1"},{"key":"user_id","value":""},{"key":"v","value":"5.65"},{"key":"random_id","value":"1236678598"}]}}
+[Exception]: код ошибки: 100
+[Exception]: файл: /Applications/MAMP/htdocs/vk_bot/vendor/digitalstars/simplevk/src/vk_api.php:229
+[Exception]: путь ошибки: #0 /Applications/MAMP/htdocs/vk_bot/bot_adder.php(20): DigitalStar\vk_api\vk_api->request('friends.add', Array)
+#1 {main}
